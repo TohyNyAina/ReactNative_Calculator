@@ -32,7 +32,7 @@ export default function Calculator() {
       <Text style={styles.display}>{display}</Text>
       <View style={styles.buttonContainer}>
         <TouchableOpacity style={styles.button} onPress={() => handleButtonPress('7')}>
-          <Text style={styles.buttonText}>7</Text>
+          <Text style={styles.buttonText}>7.</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.button} onPress={() => handleButtonPress('8')}>
           <Text style={styles.buttonText}>8</Text>
